@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"a2a85b6fa5e1afc0","type":"text","text":"Вариант 3","x":80,"y":-200,"width":250,"height":60},
+		{"id":"99d4cebf357359ab","type":"text","text":"Вариант 1","x":-480,"y":-200,"width":250,"height":60},
+		{"id":"33c457e1dbe31eb7","type":"text","text":"Вариант 2","x":-204,"y":-200,"width":250,"height":60},
+		{"id":"56e4bb80db19defe","x":-730,"y":260,"width":250,"height":220,"type":"text","text":"К лагерю приходит семья/либо это люди из города, которых Диана вместе с Фироном сопровождают в безопасное место(после игры)"},
+		{"id":"9755d173b7c15d82","x":-480,"y":-48,"width":250,"height":60,"type":"text","text":"Идти в город\n"},
+		{"id":"a88a6cab27a1a200","x":-204,"y":400,"width":250,"height":60,"type":"text","text":"Исследование крипты\n"},
+		{"id":"135090c17c6df005","type":"text","text":"Идти в крипту для ответов на вопросы о скимитаре","x":-204,"y":-48,"width":250,"height":88},
+		{"id":"7e3b593169d89050","x":80,"y":-48,"width":250,"height":60,"type":"text","text":"Идти на поиски помощи"},
+		{"id":"6163ff9c0db158bb","x":-204,"y":100,"width":250,"height":60,"type":"text","text":"Крипта в лесу"},
+		{"id":"1d73b89887ed6ecf","x":-204,"y":226,"width":250,"height":144,"type":"text","text":"Фирон ведет героев в крипту, где он хранит снаряжение для путешествий\nА также там можно найти укрытие"},
+		{"id":"adeb27a35e462a6e","x":-204,"y":500,"width":250,"height":60,"type":"text","text":"Боевое столкновение\n"},
+		{"id":"ac05abcc4533ca68","type":"text","text":"Вопрос с рунами на скимитаре\n","x":-204,"y":600,"width":250,"height":60},
+		{"id":"6c0447aea78cf417","type":"text","text":"\nСтарт","x":-120,"y":-800,"width":99,"height":96},
+		{"id":"bdb2794830b84931","type":"text","text":"NPC:\n- [[World/1 campain/NPC/Эстелла|Эстелла]] \n- [[World/1 campain/NPC/Чак|Чак]]\n- [[World/1 campain/NPC/Тимор|Тимор]]\n- [[World/1 campain/NPC/Фирон|Фирон]]\n\n","x":80,"y":-800,"width":250,"height":146},
+		{"id":"76bfcf851d8468fa","x":-204,"y":-520,"width":250,"height":128,"type":"text","text":"К лагерю прибывает несколько контрабандистов Эстеллы\n"},
+		{"id":"b52f1e8438f53f54","type":"text","text":"Разговор у костра\nи решение о действиях дальше","x":-204,"y":-654,"width":250,"height":91},
+		{"id":"e63b8c2ebc147124","x":-204,"y":-360,"width":250,"height":60,"type":"text","text":"Момент выбора действий"},
+		{"id":"8cbbcf2b8927d471","x":140,"y":-563,"width":250,"height":233,"type":"text","text":"Группа контрабандистов рассказывает, что в городе начался беспредел сразу как герои уехали\nТорн объявил охоту на всех кто связан с Эстеллой"},
+		{"id":"6c8395fd790aaa19","x":461,"y":-478,"width":250,"height":86,"type":"text","text":"Также в городе начались рейды стражи, как на лавку Фирона"},
+		{"id":"68858b0a192f0370","x":80,"y":100,"width":250,"height":330,"type":"text","text":"Придумать сценарий по которому игроки отправляются в условное мини путешествие для поиска сил\nВозможно это будет морское приключение(здесь можно будет разделить группу и отправить Диану на другой континент для поиска помощи)"}
+	],
+	"edges":[
+		{"id":"ba4cc67d0570fa99","fromNode":"99d4cebf357359ab","fromSide":"bottom","toNode":"9755d173b7c15d82","toSide":"top"},
+		{"id":"855c1c3a6a36c33c","fromNode":"33c457e1dbe31eb7","fromSide":"bottom","toNode":"135090c17c6df005","toSide":"top"},
+		{"id":"32e4ad7df53cfc0a","fromNode":"a2a85b6fa5e1afc0","fromSide":"bottom","toNode":"7e3b593169d89050","toSide":"top"},
+		{"id":"1c326bbdb86e3657","fromNode":"135090c17c6df005","fromSide":"bottom","toNode":"6163ff9c0db158bb","toSide":"top"},
+		{"id":"ba8168ac7776f47c","fromNode":"6163ff9c0db158bb","fromSide":"bottom","toNode":"1d73b89887ed6ecf","toSide":"top"},
+		{"id":"c034ab4cb6957abe","fromNode":"1d73b89887ed6ecf","fromSide":"bottom","toNode":"a88a6cab27a1a200","toSide":"top"},
+		{"id":"7ccefbbca6376130","fromNode":"a88a6cab27a1a200","fromSide":"bottom","toNode":"adeb27a35e462a6e","toSide":"top"},
+		{"id":"426939fcb336c17c","fromNode":"adeb27a35e462a6e","fromSide":"bottom","toNode":"ac05abcc4533ca68","toSide":"top"},
+		{"id":"687db1175a2fc4f5","fromNode":"b52f1e8438f53f54","fromSide":"bottom","toNode":"76bfcf851d8468fa","toSide":"top"},
+		{"id":"04f632670e8a06a4","fromNode":"76bfcf851d8468fa","fromSide":"bottom","toNode":"e63b8c2ebc147124","toSide":"top"},
+		{"id":"bf57e44f68346495","fromNode":"e63b8c2ebc147124","fromSide":"bottom","toNode":"99d4cebf357359ab","toSide":"top"},
+		{"id":"3b9f6cd7e39ede83","fromNode":"e63b8c2ebc147124","fromSide":"bottom","toNode":"33c457e1dbe31eb7","toSide":"top"},
+		{"id":"898a51ce90fb12f5","fromNode":"e63b8c2ebc147124","fromSide":"bottom","toNode":"a2a85b6fa5e1afc0","toSide":"top"},
+		{"id":"3365814e6dd709b4","fromNode":"76bfcf851d8468fa","fromSide":"right","toNode":"8cbbcf2b8927d471","toSide":"left"},
+		{"id":"41018797140c9219","fromNode":"8cbbcf2b8927d471","fromSide":"right","toNode":"6c8395fd790aaa19","toSide":"left"},
+		{"id":"b310d7307b7b2720","fromNode":"7e3b593169d89050","fromSide":"bottom","toNode":"68858b0a192f0370","toSide":"top"}
+	]
+}
