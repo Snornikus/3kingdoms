@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"95ae5959c8d2f436","x":-153,"y":-240,"width":250,"height":100,"type":"text","text":"После совета у костра команда решает разделиться\n"},
+		{"id":"6ff94300c53f6d26","x":-153,"y":-100,"width":250,"height":120,"type":"text","text":"Эстелла и ее люди отправятся на поиски подкрепления и разведку в городе"},
+		{"id":"b5c9ac39cd650628","x":-153,"y":60,"width":250,"height":86,"type":"text","text":"Герои же отправляются в катакомбы, дабы \"приручить\" скимитар "},
+		{"id":"d05b9d092fdf939e","x":-153,"y":200,"width":250,"height":160,"type":"text","text":"Катакомбы:\n- исследование\n- боевка\n- исследование"},
+		{"id":"01251d9975b05e07","x":140,"y":200,"width":250,"height":96,"type":"text","text":"Больше посвятить время Диане из-за ее родства с религией\n"}
+	],
+	"edges":[
+		{"id":"a5c7244bffe1ab45","fromNode":"95ae5959c8d2f436","fromSide":"bottom","toNode":"6ff94300c53f6d26","toSide":"top"},
+		{"id":"2a24d3661d55a885","fromNode":"6ff94300c53f6d26","fromSide":"bottom","toNode":"b5c9ac39cd650628","toSide":"top"},
+		{"id":"7f697cdfd77fc6b5","fromNode":"b5c9ac39cd650628","fromSide":"bottom","toNode":"d05b9d092fdf939e","toSide":"top"},
+		{"id":"9f77c2e648105baa","fromNode":"d05b9d092fdf939e","fromSide":"right","toNode":"01251d9975b05e07","toSide":"left"}
+	]
+}
